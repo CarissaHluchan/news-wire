@@ -1,0 +1,409 @@
+{
+    "status": "ok",
+    "totalResults": 5626,
+    "articles": [
+    {
+        "source": {
+            "id": "wired",
+            "name": "Wired"
+        },
+        "author": "Joel Khalili",
+        "title": "The World’s Biggest Bitcoin Mine Is Rattling This Texas Oil Town",
+        "description": "A cashstrapped city in rural Texas will soon be home to the world’s largest bitcoin mine. Local protesters are “raising hell.”",
+        "url": "https://www.wired.com/story/the-worlds-biggest-bitcoin-mine-is-rattling-this-texas-oil-town/",
+        "urlToImage": "https://media.wired.com/photos/66c5ecc5724cee849e3104da/191:100/w_1280,c_limit/WIRED_BTC_EC_B-Elena-Chudoba.jpg",
+        "publishedAt": "2024-09-11T10:00:00Z",
+        "content": "The previous October, Sawicky organized a weeklong protest alongside environmental activist group Greenpeace and brandished various anti-bitcoin signs at anyone who entered the Riot facility. Only a … [+3641 chars]"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "CNET"
+        },
+        "author": "Samantha Kelly",
+        "title": "PayPal to Allow Businesses Buy and Sell Crypto",
+        "description": "The change will bring bitcoin and other virtual coins to \"millions\" of merchants across the US.",
+        "url": "https://www.cnet.com/personal-finance/crypto/paypal-to-allow-businesses-buy-and-sell-crypto/",
+        "urlToImage": "https://www.cnet.com/a/img/resize/2b2ba45973ffae7baacd4449b399bd35435e4fa0/hub/2022/04/22/d7acb748-e7bd-4553-ae44-2f893ccb87ba/paypal-logo-2022-659.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "publishedAt": "2024-09-26T15:12:00Z",
+        "content": "It's about to get easier for US merchants to use cryptocurrency for payments. PayPal is launching a new service to allow the businesses that use its platform to buy, hold and sell crypto. \r\nAlthough … [+1029 chars]"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "Yahoo Entertainment"
+        },
+        "author": "Jeremy Gan",
+        "title": "Proton Drive now has a tier for business users",
+        "description": "Proton Drive from Swiss technology company Proton AG now has a Professional tier. It joins services like Proton Mail, Proton VPN, and Proton Pass to receive professional tiers, letting teams select a single individual product that they need rather than signin…",
+        "url": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_21a908a3-4282-421e-b244-52b23957d2d3",
+        "urlToImage": null,
+        "publishedAt": "2024-08-27T14:30:09Z",
+        "content": "If you click 'Accept all', we and our partners, including 237 who are part of the IAB Transparency &amp; Consent Framework, will also store and/or access information on a device (in other words, use … [+678 chars]"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "[Removed]"
+        },
+        "author": null,
+        "title": "[Removed]",
+        "description": "[Removed]",
+        "url": "https://removed.com",
+        "urlToImage": null,
+        "publishedAt": "2024-09-17T13:00:22Z",
+        "content": "[Removed]"
+    },
+    {
+        "source": {
+            "id": "business-insider",
+            "name": "Business Insider"
+        },
+        "author": "kcloonan@insider.com (Kelly Cloonan)",
+        "title": "The number of bitcoin millionaires has soared 111% in the last year as the cryptocurrency rallies",
+        "description": "The number of bitcoin millionaires has soared as  the crypto rallies. There have also been six new crypto billionaires minted in the past year.",
+        "url": "https://markets.businessinsider.com/news/currencies/bitcoin-millionaires-crypto-rally-cryptocurrency-etf-billionaires-sec-ethereum-wealth-2024-8",
+        "urlToImage": "https://www.businessinsider.com/public/assets/logos/og-image-logo-social.png?v=2023-11",
+        "publishedAt": "2024-08-27T18:50:37Z",
+        "content": "As crypto rallies, the number of bitcoin millionaires has more than doubled in the last year.\r\nAccording to a new report from New World Wealth and Henley &amp; Partners, the number of bitcoin million… [+2414 chars]"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "Slashdot.org"
+        },
+        "author": "msmash",
+        "title": "Government of Bhutan Holds Over $825 Million, or Nearly a Third of Its GDP, in Bitcoin, Arkham Data Shows",
+        "description": "The government of Bhutan is currently holding over $828 million in bitcoin, according to onchain data by Arkham Intelligence. From a report: \"Unlike most governments, Bhutan's BTC does not come from law enforcement asset seizures, but from bitcoin mining oper…",
+        "url": "https://slashdot.org/story/24/09/23/1940238/government-of-bhutan-holds-over-825-million-or-nearly-a-third-of-its-gdp-in-bitcoin-arkham-data-shows",
+        "urlToImage": "https://a.fsdn.com/sd/topics/bitcoin_64.png",
+        "publishedAt": "2024-09-23T20:05:00Z",
+        "content": "The government of Bhutan is currently holding over $828 million in bitcoin, according to onchain data by Arkham Intelligence. From a report: \"Unlike most governments, Bhutan's BTC does not come from … [+1208 chars]"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "Gizmodo.com"
+        },
+        "author": "Lucas Ropek",
+        "title": "Infamous Tech Bro Starts School That Teaches How to Crowdfund Your Own Country",
+        "description": "A well-funded free market doctrine is getting its own mysterious educational platform.",
+        "url": "https://gizmodo.com/infamous-tech-bro-starts-school-that-teaches-how-to-crowdfund-your-own-country-2000502383",
+        "urlToImage": "https://gizmodo.com/app/uploads/2024/09/Balaji-Srinivasan-during-the-Fintech-Festival-in-Singapore.jpg",
+        "publishedAt": "2024-09-24T13:35:22Z",
+        "content": "Balaji Srinivasan, the former chief technology officer of Coinbase, is a weird guy. He’s talked about living forever. He helped finance a pro-steroids athletic competition. And he once threw away a m… [+3090 chars]"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "Gizmodo.com"
+        },
+        "author": "Matt Novak",
+        "title": "Crypto Mining Company Denies Causing Health Problems in Texas Town",
+        "description": "\"We are unaware of any scientific basis to conclude that any sounds from our facility can cause the types of conditions alleged,\" the crypto company said in a statement to Gizmodo.",
+        "url": "https://gizmodo.com/crypto-mining-company-denies-causing-health-problems-in-texas-town-2000498078",
+        "urlToImage": "https://gizmodo.com/app/uploads/2024/09/Constellation-Energy-Handley-Generating-Station-in-Fort-Worth.jpg",
+        "publishedAt": "2024-09-12T20:00:22Z",
+        "content": "Cryptocurrency mining is stressing the Texas power grid and causing “unexplained health problems,” for residents of some small towns in the state, according to a new report from the San Antonio Expre… [+4312 chars]"
+    },
+    {
+        "source": {
+            "id": "time",
+            "name": "Time"
+        },
+        "author": "Andrew R. Chow",
+        "title": "Inside the Rise of Bitcoin-Powered Pools and Bathhouses",
+        "description": "A handful of establishments are attempting to harness energy from intensive computing for greater societal use.",
+        "url": "https://time.com/7017395/bitcoin-data-center-heat-bathhouses/",
+        "urlToImage": "https://api.time.com/wp-content/uploads/2024/09/Neutral-Pool-2.jpg?quality=85&w=1200&h=628&crop=1",
+        "publishedAt": "2024-09-04T17:17:00Z",
+        "content": "The scene inside Bathhouse, a spa in Manhattan, is one of complete serenity. Visitors recline in 105-degree pools, surrounded by cedar tiles and elegant marble slabs from Brazil. But just beyond clos… [+7823 chars]"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "Yahoo Entertainment"
+        },
+        "author": "Yaël Bizouati-Kennedy",
+        "title": "I’m an Economist: Here Are My Predictions for Crypto in 2025",
+        "description": "The crypto space has been on a huge recovery path in 2024 -- a year which saw the approval of spot Bitcoin ETFs (exchange-traded funds) in January, deemed by...",
+        "url": "https://finance.yahoo.com/news/m-economist-predictions-crypto-2025-140053579.html",
+        "urlToImage": "https://s.yimg.com/ny/api/res/1.2/m9fItbamLFIl7Z4gRb0LIA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02NzU-/https://media.zenfs.com/en/gobankingrates_644/2275020d68eed566369c9e83ca65ef52",
+        "publishedAt": "2024-09-02T14:00:53Z",
+        "content": "The crypto space has been on a huge recovery path in 2024 a year which saw the approval of spot Bitcoin ETFs (exchange-traded funds) in January, deemed by many a landmark decision for the crypto indu… [+4954 chars]"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "Yahoo Entertainment"
+        },
+        "author": "Decentralized Dog",
+        "title": "Bitcoin's Four-Year Cycle Declared \"Dead\" Amid Weakest Post-Halving Performance By Outline Venture",
+        "description": "Industry experts are challenging the long-held belief that Bitcoin's price performance is intrinsically linked to the cryptocurrency's quadrennial halving...",
+        "url": "https://finance.yahoo.com/news/bitcoins-four-cycle-declared-dead-133703692.html",
+        "urlToImage": "https://media.zenfs.com/en/coinmarketcap_783/518f0854609b09d611006490a920471a",
+        "publishedAt": "2024-09-04T13:37:03Z",
+        "content": "Bitcoin's Four-Year Cycle Declared \"Dead\" Amid Weakest Post-Halving Performance By Outline Venture\r\nIndustry experts are challenging the long-held belief that Bitcoin's price performance is intrinsic… [+1360 chars]"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "Yahoo Entertainment"
+        },
+        "author": "CoinDesk",
+        "title": "Why Are Bitcoin Miners Rushing to Add Bitcoin to Their Bags?",
+        "description": "CoinDesk's Jennifer Sanasie discusses the wave of bitcoin miners adopting Michael Saylor's strategy of accumulating BTC from the open market. Plus, what that...",
+        "url": "https://finance.yahoo.com/video/why-bitcoin-miners-rushing-add-211041352.html/",
+        "urlToImage": "https://s.yimg.com/cv/apiv2/social/images/yahoo_default_logo.png",
+        "publishedAt": "2024-09-17T21:10:41Z",
+        "content": "CoinDesk's Jennifer Sanasie discusses the wave of bitcoin miners adopting Michael Saylor's strategy of accumulating BTC from the open market. Plus, what that means for bitcoin as a long-term investme… [+156 chars]"
+    },
+    {
+        "source": {
+            "id": "wired",
+            "name": "Wired"
+        },
+        "author": "Andy Greenberg, Lily Hay Newman, Dhruv Mehrotra",
+        "title": "Iranian Hackers Tried to Give Hacked Trump Campaign Emails to Dems",
+        "description": "Plus: The FBI dismantles the largest-ever China-backed botnet, the DOJ charges two men with a $243 million crypto theft, Apple’s MacOS Sequoia breaks cybersecurity tools, and more.",
+        "url": "https://www.wired.com/story/iran-hackers-trump-democrats-emails/",
+        "urlToImage": "https://media.wired.com/photos/66ed82cf42ad37094e1a41eb/191:100/w_1280,c_limit/GettyImages-2172740225.jpg",
+        "publishedAt": "2024-09-21T10:30:00Z",
+        "content": "The week was dominated by news that thousands of pagers, walkie-talkies and other devices were exploding across Lebanon on Tuesday and Wednesday in an attack targeting the militant group Hezbollah. A… [+6624 chars]"
+    },
+    {
+        "source": {
+            "id": "business-insider",
+            "name": "Business Insider"
+        },
+        "author": "mfox@businessinsider.com (Matthew Fox)",
+        "title": "Stock market today: S&P 500 goes for 5-day win streak as markets look ahead to next week's Fed meeting",
+        "description": "\"While we acknowledge risks of larger cuts at subsequent meetings, we think the Fed will start off with a 25bp cut next week,\" Bank of America said.",
+        "url": "https://markets.businessinsider.com/news/stocks/stock-market-today-win-streak-fed-rate-cut-next-week-2024-9",
+        "urlToImage": "https://i.insider.com/66e43ad9bf0250c214932934?width=1200&format=jpeg",
+        "publishedAt": "2024-09-13T13:34:36Z",
+        "content": "US stocks were up on Friday as the S&amp;P 500 and Nasdaq 100 indexes attempted to extend their winning streak to five days.\r\nAfter benign inflation data and initial jobless claims were released earl… [+1604 chars]"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "Yahoo Entertainment"
+        },
+        "author": "Kellan Jansen",
+        "title": "Suze Orman: 1 Reason You Should ‘Absolutely’ Own Bitcoin",
+        "description": "Suze Orman is a financial host and author, and in a recent interview with CNBC, she said she believes \"everyone should absolutely\" own the cryptocurrency...",
+        "url": "https://finance.yahoo.com/news/suze-orman-1-reason-absolutely-140020553.html/",
+        "urlToImage": "https://s.yimg.com/cv/apiv2/social/images/yahoo_default_logo.png",
+        "publishedAt": "2024-09-23T14:00:20Z",
+        "content": "Suze Orman is a financial host and author, and in a recent interview with CNBC, she said she believes everyone should absolutely own the cryptocurrency bitcoin. Usually, people who support bitcoin as… [+3271 chars]"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "NPR"
+        },
+        "author": "Maria Aspan",
+        "title": "Wall Street investors think Trump lost the debate, too",
+        "description": "Shares in former President Trump’s company plunged the day after his debate with Vice President Harris.",
+        "url": "https://www.npr.org/2024/09/11/nx-s1-5108849/wall-street-investors-think-trump-lost-the-debate-too",
+        "urlToImage": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5568x3132+0+290/resize/1400/quality/100/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F22%2F39%2F299b1e534af1aa08e0b66384f9b7%2Fgettyimages-2170591870.jpg",
+        "publishedAt": "2024-09-11T19:07:36Z",
+        "content": "Even some of former President Donald Trumps most ardent supporters seem worried he lost Tuesdays debate with Vice President Kamala Harris.\r\nShares in Trump Media &amp; Technology Group, the parent co… [+1685 chars]"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "MarketWatch"
+        },
+        "author": "Frances Yue",
+        "title": "Struggling bitcoin miners may be revived by Fed rate decision, regardless of cut size",
+        "description": "Whether the Federal Reserve delivers a 25 or 50 basis point rate cut, it could mean a turnaround for bitcoin miners, which have been struggling so far this year, market participants said.",
+        "url": "https://www.marketwatch.com/story/struggling-bitcoin-miners-may-be-revived-by-fed-rate-decision-regardless-of-cut-size-db64c987",
+        "urlToImage": "https://images.mktw.net/im-63283705/social",
+        "publishedAt": "2024-09-17T19:51:00Z",
+        "content": "Whether the Federal Reserve delivers an ordinary, or slightly larger interest-rate cut on Wednesday, it could trigger a turnaround for bitcoin miners, which have been struggling with higher borrowing… [+363 chars]"
+    },
+    {
+        "source": {
+            "id": "business-insider",
+            "name": "Business Insider"
+        },
+        "author": "mfox@businessinsider.com (Matthew Fox)",
+        "title": "Stock market today: Dow hits record high while tech shares stumble ahead of Nvidia earnings",
+        "description": "The Dow hit a record high on Monday. Tech shares edged lower ahead of the hotly anticipated Nvidia earning report scheduled for Wednesday.",
+        "url": "https://markets.businessinsider.com/news/stocks/stock-market-today-tech-shares-decline-nvidia-earnings-this-week-2024-8",
+        "urlToImage": "https://i.insider.com/641471735f4f5400191a0fbe?width=1200&format=jpeg",
+        "publishedAt": "2024-08-26T20:10:10Z",
+        "content": "US stocks were mixed on Monday with tech shares dragging the S&amp;P 500 and the Nasdaq Composite lower, while the Dow Jones Industrial Average climbed to a record high.\r\nAll eyes are on Nvidia earni… [+1913 chars]"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "Yahoo Entertainment"
+        },
+        "author": "Seana Smith",
+        "title": "MicroStrategy buys additional $1.11 billion worth of bitcoin",
+        "description": "MicroStrategy (MSTR) has once again added more bitcoin (BTC-USD) holdings to its portfolio, purchasing an additional $1.11 billion worth of the...",
+        "url": "https://finance.yahoo.com/video/microstrategy-buys-additional-1-11-152200387.html/",
+        "urlToImage": "https://s.yimg.com/cv/apiv2/social/images/yahoo_default_logo.png",
+        "publishedAt": "2024-09-13T15:22:00Z",
+        "content": "MicroStrategy (MSTR) has once again added more bitcoin (BTC-USD) holdings to its portfolio, purchasing an additional $1.11 billion worth of the cryptocurrency. This brings MicroStrategy's total bitco… [+341 chars]"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "Threadreaderapp.com"
+        },
+        "author": null,
+        "title": "We created a new account in Telegram and started looking for a job in Estonia",
+        "description": "@holger_r: A few months ago we ran a small experiment. We created a new account in Telegram and started looking for a job. We joined channels that were directly about jobs in Estonia. Here’s what happened. We...…",
+        "url": "https://threadreaderapp.com/thread/1828526705306411410.html",
+        "urlToImage": "https://threadreaderapp.com/images/screenshots/thread/1828526705306411410.jpg",
+        "publishedAt": "2024-08-28T15:48:44Z",
+        "content": "Support us! We are indie developers!\r\nThis site is made by just two indie developers on a laptop doing marketing, support and development! Read more about the story.\r\nBecome a Premium Member ($3/mont… [+395 chars]"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "VentureBeat"
+        },
+        "author": "Jon Stojan",
+        "title": "How ChainMyne is tailoring crypto solutions for elite investors",
+        "description": "CONTRIBUTOR CONTENT: The cryptocurrency world has undergone many transformations in recent years. The global crypto market capitalization is currently at $2.19 trillion, which highlights the growing acceptance and integration of digital assets into mainstream…",
+        "url": "https://venturebeat.com/business/how-chainmyne-is-tailoring-crypto-solutions-for-elite-investors/",
+        "urlToImage": "https://venturebeat.com/wp-content/uploads/2024/09/Kims-shoot-shoot-15-juin-2024-Par-Randy-_I9A3725.jpg?w=1024?w=1200&strip=all",
+        "publishedAt": "2024-09-09T17:20:21Z",
+        "content": "The cryptocurrency world has undergone many transformations in recent years. The global crypto market capitalization is currently at $2.19 trillion, which highlights the growing acceptance and integr… [+5626 chars]"
+    },
+    {
+        "source": {
+            "id": "business-insider",
+            "name": "Business Insider"
+        },
+        "author": "Dan DeFrancesco",
+        "title": "Harris and Trump face off for the first time tonight, but some corners of the business world are already over it",
+        "description": "Kamala Harris and Donald Trump will face off on the debate stage at 9 p.m. ET, but some investors view it as a distraction for their money managers.",
+        "url": "https://www.businessinsider.com/kamala-harris-donald-trump-presidential-debate-wall-street-tech-thoughts-2024-9",
+        "urlToImage": "https://i.insider.com/66a8dbfdaab37011780b8f56?width=1200&format=jpeg",
+        "publishedAt": "2024-09-10T12:54:00Z",
+        "content": "Patrick Semansky/AP Images; Chip Somodevilla/Getty Images; Alyssa Powell/BI\r\n<ul><li>This post originally appeared in the Insider Today newsletter.</li><li>You can sign up for Business Insider's dail… [+7756 chars]"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "Slashdot.org"
+        },
+        "author": "BeauHD",
+        "title": "City of Columbus Sues Man After He Discloses Severity of Ransomware Attack",
+        "description": "An anonymous reader quotes a report from Ars Technica, written by Dan Goodin: A judge in Ohio has issued a temporary restraining order against a security researcher who presented evidence that a recent ransomware attack on the city of Columbus scooped up ream…",
+        "url": "https://yro.slashdot.org/story/24/08/30/227217/city-of-columbus-sues-man-after-he-discloses-severity-of-ransomware-attack",
+        "urlToImage": "https://a.fsdn.com/sd/topics/court_64.png",
+        "publishedAt": "2024-08-30T22:40:00Z",
+        "content": "A judge in Ohio has issued a temporary restraining order against a security researcher who presented evidence that a recent ransomware attack on the city of Columbus scooped up reams of sensitive per… [+2691 chars]"
+    },
+    {
+        "source": {
+            "id": "time",
+            "name": "Time"
+        },
+        "author": "Vera Bergengruen / San Salvador",
+        "title": "How Nayib Bukele’s ‘Iron Fist’ Has Transformed El Salvador",
+        "description": "A crackdown on gangs has made the authoritarian leader arguably the world's most popular head of state",
+        "url": "https://time.com/7015598/nayib-bukeles-iron-fist-el-salvador/",
+        "urlToImage": "https://api.time.com/wp-content/uploads/2024/08/nayib-bukele-interview-1.jpg?quality=85&crop=0px%2C199px%2C2400px%2C1256px&resize=1200%2C628&strip",
+        "publishedAt": "2024-08-29T12:00:00Z",
+        "content": "You can read the transcript of the interview here and the Spanish version here.\r\nBefore he became arguably the most popular head of state in the world, Nayib Bukele was an adman. The President of El … [+30877 chars]"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "Quartz India"
+        },
+        "author": "Vinamrata Chaturvedi",
+        "title": "Bitcoin marriages: Digital I dos",
+        "description": "Wanna get married on blockchain?Read more...",
+        "url": "https://qz.com/emails/quartz-obsession/1851646066/bitcoin-marriages-cryptocurrency",
+        "urlToImage": "https://i.kinja-img.com/image/upload/c_fill,h_675,pg_1,q_80,w_1200/0f2e373a1943641bf2d6df91ede4af64.png",
+        "publishedAt": "2024-09-11T20:15:00Z",
+        "content": "In This Story\r\nWanna get married on blockchain?\r\nCouples are increasingly looking for unique ways to make their wedding day unforgettable... so much so that some are using cryptocurrency and blockcha… [+4850 chars]"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "Quartz India"
+        },
+        "author": "Vinamrata Chaturvedi",
+        "title": "Bitcoin millionaires have doubled in a year — thanks to Bitcoin ETFs",
+        "description": "The global population of crypto millionaires has surged by 95% over the past year, driven by the rise of Bitcoin ETFs and other crypto assets, according to a new report.Read more...",
+        "url": "https://qz.com/bitcoin-millionaires-bitcoin-etfs-crypto-wealth-report-1851635391",
+        "urlToImage": "https://i.kinja-img.com/image/upload/c_fill,h_675,pg_1,q_80,w_1200/062353e99b06fb5380e6c622d0ee26cb.jpg",
+        "publishedAt": "2024-08-29T14:15:00Z",
+        "content": "In This Story\r\nThe global population of crypto millionaires has surged by 95% over the past year, driven by the rise of Bitcoin ETFs and other crypto assets, according to a new report.\r\nThe latest Cr… [+1311 chars]"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "Mirror.xyz"
+        },
+        "author": null,
+        "title": "Lazarus Group laundered $200M from 25 crypto hacks to fiat",
+        "description": "How Lazarus Group laundered $200M from 25+ crypto hacks to fiat from 2020–2023",
+        "url": "https://zachxbt.mirror.xyz/B0-UJtxN41cJhpPtKv0v2LZ8u-0PwZ4ecMPEdX4l8vE",
+        "urlToImage": "https://images.mirror-media.xyz/publication-images/dz6aTouAEhCLIszRIzGkT.png?height=965&width=1930",
+        "publishedAt": "2024-09-15T01:09:25Z",
+        "content": "Table of contents\r\n1). Introduction\r\n2). CoinBerry, Unibright, &amp; CoinMetro hacks\r\n3). Nexus Mutual founder hack\r\n4). EasyFi hack\r\n5). Bondly hack\r\n6). Unreported hacks\r\n7). MGNR and PolyPlay hack… [+28987 chars]"
+    },
+    {
+        "source": {
+            "id": "abc-news",
+            "name": "ABC News"
+        },
+        "author": "Emily Chang",
+        "title": "Doug Emhoff blasts Gov. Sanders' remarks about Harris not having biological children",
+        "description": "Second gentleman Doug Emhoff blasted remarks made by Arkansas Gov. Sarah Huckabee Sanders about Vice President Kamala Harris.",
+        "url": "https://abcnews.go.com/Politics/doug-emhoff-blasts-gov-sanders-remarks-harris-biological/story?id=113842070",
+        "urlToImage": "https://i.abcnewsfe.com/a/137a4cc2-d248-48e8-a61d-9dd10e4f6941/emhoff-file-gty-ml-240919_1726757529874_hpMain_16x9.jpg?w=1600",
+        "publishedAt": "2024-09-19T16:07:41Z",
+        "content": "Second gentleman Doug Emhoff blasted remarks made by Arkansas Gov. Sarah Huckabee Sanders, who said Vice President Kamala Harris \"doesn't have anything to keep her humble\" because she does not have b… [+2215 chars]"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "Theregister.com"
+        },
+        "author": "Connor Jones",
+        "title": "Rhysida ransomware gang ships off Port of Seattle data for $6M",
+        "description": "Auction acts as payback after authority publicly refuses to pay up\nThe trend of ransomware crews claiming to sell stolen data privately instead of leaking it online continues with Rhysida marketing the data allegedly belonging to Port of Seattle for 100 Bitco…",
+        "url": "https://www.theregister.com/2024/09/17/rhysida_port_of_seattle/",
+        "urlToImage": "https://regmedia.co.uk/2018/12/08/shutterstock_168210293.jpg",
+        "publishedAt": "2024-09-17T16:45:15Z",
+        "content": "The trend of ransomware crews claiming to sell stolen data privately instead of leaking it online continues with Rhysida marketing the data allegedly belonging to Port of Seattle for 100 Bitcoin (aro… [+4475 chars]"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "Quartz India"
+        },
+        "author": "Vinamrata Chaturvedi",
+        "title": "Bitcoin ATM scams surge to $110 million in 2023 — is your crypto safe?",
+        "description": "A recent report from the Federal Trade Commission (FTC) highlights a significant surge in Bitcoin ATM-related scams. Consumer losses have skyrocketed nearly tenfold since 2020, and in 2023 alone, reported losses exceeded $110 million. This alarming trend cont…",
+        "url": "https://qz.com/bitcoin-atm-scams-110-million-in-2023-1851638807",
+        "urlToImage": "https://i.kinja-img.com/image/upload/c_fill,h_675,pg_1,q_80,w_1200/1421f60b3f60176d4b49a9ac54404715.jpg",
+        "publishedAt": "2024-09-03T19:02:00Z",
+        "content": "A recent report from the Federal Trade Commission (FTC) highlights a significant surge in Bitcoin ATM-related scams. Consumer losses have skyrocketed nearly tenfold since 2020, and in 2023 alone, rep… [+1689 chars]"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "Quartz India"
+        },
+        "author": "Vinamrata Chaturvedi",
+        "title": "Ether is beating Bitcoin as the Fed interest rate cut sparks a crypto rally",
+        "description": "Bitcoin and Ether, the two largest cryptocurrencies by market capitalization, were thriving on Monday morning, buoyed by the U.S. Federal Reserve’s recent interest rate cut. Bitcoin was trading near $63,000, up 1.2% in the past 24 hours and nearly 8% over the…",
+        "url": "https://qz.com/ether-outperforms-bitcoin-fed-interest-rate-cut-1851654781",
+        "urlToImage": "https://i.kinja-img.com/image/upload/c_fill,h_675,pg_1,q_80,w_1200/d91147f331314988daca7da52f3f5982.jpg",
+        "publishedAt": "2024-09-23T14:41:00Z",
+        "content": "Bitcoin and Ether, the two largest cryptocurrencies by market capitalization, were thriving on Monday morning, buoyed by the U.S. Federal Reserves recent interest rate cut. Bitcoin was trading near $… [+1432 chars]"
+    }
+]
+}
