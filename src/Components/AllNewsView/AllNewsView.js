@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import moment from 'moment';
 
 import NewsCard from '../NewsCard/NewsCard';
 import './AllNewsView.css'
@@ -15,8 +16,8 @@ function AllNewsView({ allNews }) {
                 title={newsItem.title || ''}
                 image={newsItem.urlToImage || ''}
                 description={newsItem.description || ''}
-                date={newsItem.publishedAt || ''}
                 author={newsItem.author || ''}
+                date={moment(newsItem.publishedAt).startOf('day').fromNow() || ''}
             />
         )
     })
