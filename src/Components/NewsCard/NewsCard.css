@@ -1,0 +1,29 @@
+.news-card-wrapper {
+    width: 18rem;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--color-2);
+    padding: 1rem;
+    /* border: 1px solid red; */
+    border-radius: 5px;
+    margin: 1rem;
+}
+
+.new-card-source-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    font-weight: 600;
+    color: var(--color-1)
+}
+
+.news-card-image {
+    height: auto;
+    width: 17rem;
+}
+
+.news-card-date,
+.news-card-author {
+    font-weight: 500;
+    color: var(--color-1);
+}

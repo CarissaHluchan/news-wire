@@ -15,6 +15,7 @@ body {
   font-weight: 400;
   font-style: normal;
   background-color: var(--color-2);
+  margin: 0;
 }
 
 code {

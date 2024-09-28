@@ -1,9 +1,10 @@
 .App {
-  text-align: center;
+  /* text-align: center; */
 }
 
 h1 {
   font-family: var(--news-reader);
   font-size: 4rem;
+  text-align: center;
   color: var(--color-5);
 }
