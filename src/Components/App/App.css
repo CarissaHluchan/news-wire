@@ -8,3 +8,7 @@ h1 {
   text-align: center;
   color: var(--color-5);
 }
+
+footer {
+  text-align: center;
+}

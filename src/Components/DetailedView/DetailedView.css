@@ -1,0 +1,52 @@
+.main-detailed-view {
+    display: flex;
+    justify-content: center;
+    background-color: var(--color-3);
+    /* border: 2px solid red; */
+}
+
+.detailed-view-article {
+    width: 90%;
+    height: auto;
+    background-color: var(--color-2);
+    padding: 1rem;
+    margin: 2rem;
+    border-radius: 10px;
+    /* border: 2px solid green; */
+}
+
+.detailed-view-button-wrapper,
+.detailed-view-author-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+button {
+    color: var(--color-2);
+    font-weight: 600;
+    background-color: var(--color-1);
+    padding: .3rem;
+    border-radius: 50px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.detailed-view-title {
+    text-align: center;
+}
+
+.detailed-view-image {
+    position: relative;
+    width: 100%;
+    margin-bottom: .5rem;
+}
+
+.detailed-view-source,
+.detailed-view-date,
+.detailed-view-author {
+    font-weight: 600;
+    color: var(--color-1);
+}

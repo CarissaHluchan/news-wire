@@ -1,11 +1,17 @@
 import React from 'react'
+import { useNavigate } from 'react-router-dom'
 
 import './NewsCard.css'
 
 function NewsCard({ id, source, title, image, description, date }) {
+    const navigate = useNavigate();
+
+    const handleDetailedView = () => {
+        navigate(`/article/${id}`)
+    }
 
     return (
-        <div className='news-card-wrapper' id={id}>
+        <div className='news-card-wrapper' id={id} onClick={handleDetailedView}>
             <div className='new-card-source-wrapper'>
                 <div>{source}</div>
             </div>

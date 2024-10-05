@@ -3,13 +3,15 @@ import { Route, Routes } from 'react-router-dom';
 
 // import Form from '../Form/Form';
 import AllNewsView from '../AllNewsView/AllNewsView';
-// import DetailedView from '../DetailedView/DetailedView';
+import DetailedView from '../DetailedView/DetailedView';
 // import ErrorPage from '../ErrorPage/ErrorPage';
 import './App.css';
 import mockData from '../../mockData.json'
 
 function App() {
 const [allNews, setAllNews] = useState([]);
+
+const newsArticleId = allNews.publishedAt 
 
 useEffect(() => {
   setAllNews(mockData.articles)
@@ -22,8 +24,8 @@ useEffect(() => {
         {/* <Form /> */}
       </header>
       <Routes>
-        <Route path='/' element={<AllNewsView allNews={allNews}/>}/>
-        {/* <Route path='article/:publishedAt'element={<DetailedView />}/> */}
+        <Route path='/' element={<AllNewsView allNews={allNews} />}/>
+        <Route path='article/:publishedAt'element={<DetailedView allNews={allNews}/>}/>
         {/* <Route path='/error/:code' element={<ErrorPage />}></Route>
         <Route path='*' element={<ErrorPage error={404} />}></Route> */}
       </Routes>
