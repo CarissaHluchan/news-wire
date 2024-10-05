@@ -10,7 +10,7 @@ function DetailedView({ allNews }) {
     const newsArticle = allNews.find(article => {
         const formattedPublishedAt = moment(article.publishedAt).format('YYYY-MM-DD-HH-mm-ss');
         return formattedPublishedAt === publishedAt;
-    })
+    });
 
     if (!newsArticle) {
         return (
@@ -18,7 +18,7 @@ function DetailedView({ allNews }) {
                 <h2 className='no-articles-found-message'>No articles found for the selected date.</h2>
             </main>
         );
-    }
+    };
 
     const isImageValid = newsArticle.urlToImage && newsArticle.urlToImage.trim() !== '';
     const isAuthorValid = newsArticle.author && newsArticle.author.trim() !== '';
@@ -46,7 +46,7 @@ function DetailedView({ allNews }) {
                 <p>{newsArticle.content}</p>
             </div>
         </main>
-    )
+    );
 }
 
-export default DetailedView
+export default DetailedView;

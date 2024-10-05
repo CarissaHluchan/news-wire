@@ -4,7 +4,7 @@ import './ErrorPage.css';
 function ErrorPage({ error }) {
     const { code } = useParams();
 
-    const errorCode = error || code
+    const errorCode = error || code;
 
     return (
         <section className='error-section'>

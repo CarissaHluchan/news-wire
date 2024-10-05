@@ -6,16 +6,14 @@ import 'react-datepicker/dist/react-datepicker.css';
 import './Form.css';
 
 function Form({ handleSearch }) {
-    const { control, handleSubmit } = useForm(); 
+    const { control, handleSubmit } = useForm();
     const [searchDate, setSearchDate] = useState(new Date());
     const navigate = useNavigate();
 
     const onSubmit = (data) => {
-        // Handle search logic here, using data.searchDate
-        // console.log('Search data:', data);
         setSearchDate(data.searchDate);
-        handleSearch(data.searchDate); 
-        navigate('/')
+        handleSearch(data.searchDate);
+        navigate('/');
     };
 
     return (
@@ -42,4 +40,4 @@ function Form({ handleSearch }) {
     );
 }
 
-export default Form
+export default Form;

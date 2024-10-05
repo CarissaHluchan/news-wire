@@ -1,7 +1,5 @@
 import { useState, useEffect } from 'react';
 import { Route, Routes } from 'react-router-dom';
-import { useForm } from 'react-hook-form';
-import moment from 'moment';
 
 import Form from '../Form/Form';
 import AllNewsView from '../AllNewsView/AllNewsView';
@@ -14,60 +12,25 @@ function App() {
   const [allNews, setAllNews] = useState([]);
   const [filteredArticles, setFilteredArticles] = useState(allNews);
 
-  // const newsArticleId = allNews.publishedAt
-
   useEffect(() => {
     setAllNews(mockData.articles);
     setFilteredArticles(mockData.articles);
-  }, [])
-
-  // const { control, handleSubmit } = useForm();
+  }, []);
 
   const handleSearch = (searchDate) => {
-    // If the searchDate is null or undefined, show all articles
     if (!searchDate) {
-        setFilteredArticles(allNews);
-        return;
-    }
+      setFilteredArticles(allNews);
+      return;
+    };
 
-    const formattedSearchDate = searchDate.toISOString().slice(0, 10); 
+    const formattedSearchDate = searchDate.toISOString().slice(0, 10);
     const filtered = allNews.filter(article => {
-        const articleDate = article.publishedAt.slice(0, 10);
-        return articleDate === formattedSearchDate;
+      const articleDate = article.publishedAt.slice(0, 10);
+      return articleDate === formattedSearchDate;
     });
 
-    setFilteredArticles(filtered); 
-};
-
-
-
-  // const handleSearch = (searchDate) => {
-  //   const searchMoment = moment(searchDate); 
-  //   const formattedSearchDate = searchMoment.format('MM/DD/YYYY');
-
-  //   // console.log(formattedSearchDate, '<< Search Date')
-
-  //   const filtered = allNews.filter(article => {
-  //     const publishedDate = moment(article.publishedAt).format('MM/DD/YYYY');
-
-  //     // console.log(publishedDate, '<< published date');
-
-  //     return publishedDate === formattedSearchDate;
-  //   });
-  
-  //   // console.log(filtered, '<< Filtered Articles');
-
-  //   setFilteredArticles(filtered);
-  // }
-
-  // const onSearchSubmit = (data) => {
-  //   // Handle search logic here using data.searchDate
-  //   console.log('Search date:', data.searchDate);
-  //   // You can filter the articles based on the selected date here.
-  //   // For example:
-  //   const filteredArticles = allNews.filter(article => moment(article.publishedAt).isSame(data.searchDate, 'day'));
-  //   console.log('Filtered Articles:', filteredArticles);
-  // };
+    setFilteredArticles(filtered);
+  };
 
   return (
     <div>
@@ -76,7 +39,7 @@ function App() {
         <Form handleSearch={handleSearch} />
       </header>
       <Routes>
-        <Route path='/' element={<AllNewsView allNews={filteredArticles ? filteredArticles : allNews}/>} />
+        <Route path='/' element={<AllNewsView allNews={filteredArticles ? filteredArticles : allNews} />} />
         <Route path='article/:publishedAt' element={<DetailedView allNews={filteredArticles ? filteredArticles : allNews} />} />
         <Route path='/error/:code' element={<ErrorPage allNews={filteredArticles ? filteredArticles : allNews} />}></Route>
         <Route path='*' element={<ErrorPage error={404} allNews={filteredArticles ? filteredArticles : allNews} />}></Route>

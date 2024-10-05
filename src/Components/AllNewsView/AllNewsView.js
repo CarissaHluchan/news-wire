@@ -11,7 +11,7 @@ function AllNewsView({ allNews }) {
                 <h2 className='no-articles-found-message'>No articles found for the selected date.</h2>
             </main>
         );
-    }
+    };
 
     const allNewsCards = allNews
         .filter(newsItem => newsItem.title !== '[Removed]')
@@ -28,15 +28,15 @@ function AllNewsView({ allNews }) {
                     author={newsItem.author || ''}
                     date={moment(newsItem.publishedAt).startOf('day').fromNow() || ''}
                 />
-            )
-        })
+            );
+        });
 
 
     return (
         <main className='all-news-main'>
             {allNewsCards}
         </main>
-    )
+    );
 }
 
-export default AllNewsView
+export default AllNewsView;
