@@ -4,7 +4,7 @@ import { Route, Routes } from 'react-router-dom';
 // import Form from '../Form/Form';
 import AllNewsView from '../AllNewsView/AllNewsView';
 import DetailedView from '../DetailedView/DetailedView';
-// import ErrorPage from '../ErrorPage/ErrorPage';
+import ErrorPage from '../ErrorPage/ErrorPage';
 import './App.css';
 import mockData from '../../mockData.json'
 
@@ -18,7 +18,7 @@ useEffect(() => {
 },[])
 
   return (
-    <div className="App">
+    <div>
       <header>
         <h1>News Wire</h1>
         {/* <Form /> */}
@@ -26,8 +26,8 @@ useEffect(() => {
       <Routes>
         <Route path='/' element={<AllNewsView allNews={allNews} />}/>
         <Route path='article/:publishedAt'element={<DetailedView allNews={allNews}/>}/>
-        {/* <Route path='/error/:code' element={<ErrorPage />}></Route>
-        <Route path='*' element={<ErrorPage error={404} />}></Route> */}
+        <Route path='/error/:code' element={<ErrorPage />}></Route>
+        <Route path='*' element={<ErrorPage error={404} />}></Route>
       </Routes>
       <footer>
         <div>Created By: Carissa Hluchan</div>
