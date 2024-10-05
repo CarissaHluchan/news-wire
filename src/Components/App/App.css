@@ -10,5 +10,10 @@ h1 {
 }
 
 footer {
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
 }

@@ -10,7 +10,7 @@
     height: auto;
     background-color: var(--color-2);
     padding: 1rem;
-    margin: 2rem;
+    margin: 1rem;
     border-radius: 10px;
     /* border: 2px solid green; */
 }
@@ -49,4 +49,8 @@ button:hover {
 .detailed-view-author {
     font-weight: 600;
     color: var(--color-1);
+}
+
+.detailed-view-source {
+    margin-top: 1rem;
 }

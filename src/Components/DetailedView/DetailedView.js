@@ -17,15 +17,22 @@ function DetailedView({ allNews }) {
         return <div>Article not found</div>;
     }
 
+    const isImageValid = newsArticle.urlToImage && newsArticle.urlToImage.trim() !== '';
+
     return (
         <main className='main-detailed-view'>
             <div className='detailed-view-article'>
                 <div className='detailed-view-button-wrapper'>
                     <button onClick={() => navigate('/')}>All Articles</button>
-                    <div className='detailed-view-source'>{newsArticle.source.name}</div>
+                    <a href={newsArticle.url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className='detailed-view-source'>{newsArticle.source.name}</a>
                 </div>
                 <h2 className='detailed-view-title'>{newsArticle.title}</h2>
-                <img src={newsArticle.urlToImage} alt={newsArticle.imageDescription || 'News article image'} className='detailed-view-image'/>
+                {isImageValid && (
+                    <img src={newsArticle.urlToImage} alt={'News article image'} className='detailed-view-image' />
+                )}
                 <div className='detailed-view-author-wrapper'>
                     <div className='detailed-view-date'>{moment(newsArticle.publishedAt).format('LLLL')}</div>
                     <div className='detailed-view-author'>By: {newsArticle.author}</div>
