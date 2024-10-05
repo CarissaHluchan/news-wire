@@ -18,7 +18,7 @@ function NewsCard({ id, source, title, image, description, date }) {
             <h2>{title}</h2>
             <img src={image} className='news-card-image' />
             <p>{description}</p>
-            <div className='new-card-source-wrapper'>
+            <div className='news-card-source-wrapper'>
                 <div>{date}</div>
             </div>
         </div>

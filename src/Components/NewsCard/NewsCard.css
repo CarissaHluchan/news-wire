@@ -12,7 +12,7 @@
 .news-card-wrapper:hover {
     cursor: pointer;
 }
-.new-card-source-wrapper {
+.news-card-source-wrapper {
     width: 100%;
     display: flex;
     justify-content: flex-end;

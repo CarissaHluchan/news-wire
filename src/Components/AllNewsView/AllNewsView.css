@@ -1,3 +1,7 @@
+.no-articles-found-message {
+    color: var(--color-2);
+}
+
 .all-news-main {
     display: flex;
     flex-wrap: wrap;

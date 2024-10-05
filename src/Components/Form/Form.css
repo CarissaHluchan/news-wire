@@ -1,0 +1,17 @@
+form {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-3);
+    /* border: 2px solid red; */
+}
+
+input {
+    margin: 1rem;
+}
+
+.search-by-date-button {
+    background-color: var(--color-5);
+}
