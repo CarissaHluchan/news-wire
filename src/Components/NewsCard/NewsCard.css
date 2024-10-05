@@ -5,13 +5,14 @@
     justify-content: space-evenly;
     background-color: var(--color-2);
     padding: 1.5rem;
-    /* border: 1px solid red; */
     border-radius: 5px;
     margin: 1rem;
 }
+
 .news-card-wrapper:hover {
     cursor: pointer;
 }
+
 .news-card-source-wrapper {
     width: 100%;
     display: flex;

@@ -5,7 +5,6 @@ form {
     justify-content: center;
     align-items: center;
     background-color: var(--color-3);
-    /* border: 2px solid red; */
 }
 
 input {
