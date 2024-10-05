@@ -13,7 +13,11 @@ function DetailedView({ allNews }) {
     })
 
     if (!newsArticle) {
-        return <div>Article not found</div>;
+        return (
+            <main className='all-news-main'>
+                <h2 className='no-articles-found-message'>No articles found for the selected date.</h2>
+            </main>
+        );
     }
 
     const isImageValid = newsArticle.urlToImage && newsArticle.urlToImage.trim() !== '';

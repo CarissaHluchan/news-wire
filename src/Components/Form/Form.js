@@ -1,19 +1,21 @@
 import { useState } from 'react';
 import { Controller, useForm } from 'react-hook-form';
 import DatePicker from 'react-datepicker';
+import { useNavigate } from 'react-router-dom';
 import 'react-datepicker/dist/react-datepicker.css';
 import './Form.css';
 
 function Form({ handleSearch }) {
     const { control, handleSubmit } = useForm(); 
     const [searchDate, setSearchDate] = useState(new Date());
+    const navigate = useNavigate();
 
     const onSubmit = (data) => {
         // Handle search logic here, using data.searchDate
-        console.log('Search data:', data);
-
-        setSearchDate(data.searchDate)
+        // console.log('Search data:', data);
+        setSearchDate(data.searchDate);
         handleSearch(data.searchDate); 
+        navigate('/')
     };
 
     return (
@@ -25,6 +27,7 @@ function Form({ handleSearch }) {
                 render={({ field }) => (
                     <DatePicker
                         {...field}
+                        placeholderText='MM/DD/YYYY'
                         selected={searchDate}
                         onChange={(date) => {
                             setSearchDate(date);

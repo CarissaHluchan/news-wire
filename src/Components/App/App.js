@@ -30,15 +30,13 @@ function App() {
         return;
     }
 
-    const formattedSearchDate = searchDate.toISOString().slice(0, 10); // Format search date as YYYY-MM-DD
-
-    // Filter the articles based on the search date
+    const formattedSearchDate = searchDate.toISOString().slice(0, 10); 
     const filtered = allNews.filter(article => {
-        const articleDate = article.publishedAt.slice(0, 10); // Extract the date portion of publishedAt
+        const articleDate = article.publishedAt.slice(0, 10);
         return articleDate === formattedSearchDate;
     });
 
-    setFilteredArticles(filtered); // Update the filteredNews state with the filtered articles
+    setFilteredArticles(filtered); 
 };
 
 
@@ -79,9 +77,9 @@ function App() {
       </header>
       <Routes>
         <Route path='/' element={<AllNewsView allNews={filteredArticles ? filteredArticles : allNews}/>} />
-        <Route path='article/:publishedAt' element={<DetailedView allNews={allNews} />} />
-        <Route path='/error/:code' element={<ErrorPage />}></Route>
-        <Route path='*' element={<ErrorPage error={404} />}></Route>
+        <Route path='article/:publishedAt' element={<DetailedView allNews={filteredArticles ? filteredArticles : allNews} />} />
+        <Route path='/error/:code' element={<ErrorPage allNews={filteredArticles ? filteredArticles : allNews} />}></Route>
+        <Route path='*' element={<ErrorPage error={404} allNews={filteredArticles ? filteredArticles : allNews} />}></Route>
       </Routes>
       <footer>
         <div>Created By: Carissa Hluchan</div>
