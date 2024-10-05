@@ -18,6 +18,7 @@ function DetailedView({ allNews }) {
     }
 
     const isImageValid = newsArticle.urlToImage && newsArticle.urlToImage.trim() !== '';
+    const isAuthorValid = newsArticle.author && newsArticle.author.trim() !== '';
 
     return (
         <main className='main-detailed-view'>
@@ -35,7 +36,9 @@ function DetailedView({ allNews }) {
                 )}
                 <div className='detailed-view-author-wrapper'>
                     <div className='detailed-view-date'>{moment(newsArticle.publishedAt).format('LLLL')}</div>
-                    <div className='detailed-view-author'>By: {newsArticle.author}</div>
+                    {isAuthorValid && (
+                        <div className='detailed-view-author'>By: {newsArticle.author}</div>
+                    )}
                 </div>
                 <p>{newsArticle.content}</p>
             </div>
