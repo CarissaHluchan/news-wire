@@ -1,20 +1,35 @@
 import { useState, useEffect } from 'react';
-import { Route, Routes } from 'react-router-dom';
+import { Route, Routes, useNavigate } from 'react-router-dom';
 
 import Form from '../Form/Form';
 import AllNewsView from '../AllNewsView/AllNewsView';
 import DetailedView from '../DetailedView/DetailedView';
 import ErrorPage from '../ErrorPage/ErrorPage';
 import './App.css';
-import mockData from '../../mockData.json';
+import { getNews } from '../APICalls/APICalls';
+// import mockData from '../../mockData.json';
 
 function App() {
   const [allNews, setAllNews] = useState([]);
   const [filteredArticles, setFilteredArticles] = useState(allNews);
+  const navigate = useNavigate();
 
   useEffect(() => {
-    setAllNews(mockData.articles);
-    setFilteredArticles(mockData.articles);
+    const fetchNews = async () => {
+      try {
+        const data = await getNews();
+        if (data && Array.isArray(data.articles)) {
+          setAllNews(data.articles); // Set articles if they exist
+          setFilteredArticles(data.articles); // Same for filteredArticles
+        } else {
+          throw new Error('Invalid data structure received from API.');
+        }
+      } catch (err) {
+        console.error("Error fetching the News from App.js", err);
+        navigate(`/error/${err.statusCode || 500}`, { state: { message: err.message || 'An unexpected error occurred.' } });
+      }
+    }
+    fetchNews();
   }, []);
 
   const handleSearch = (searchDate) => {
