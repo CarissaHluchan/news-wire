@@ -1,0 +1,15 @@
+h1 {
+  font-family: var(--news-reader);
+  font-size: 4rem;
+  text-align: center;
+  color: var(--color-5);
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem;
+}

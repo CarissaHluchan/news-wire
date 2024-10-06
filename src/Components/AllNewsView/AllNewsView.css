@@ -1,0 +1,11 @@
+.no-articles-found-message {
+    color: var(--color-2);
+}
+
+.all-news-main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: var(--color-3);
+    padding: 1.5rem;
+}
