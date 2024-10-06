@@ -7,7 +7,6 @@ import DetailedView from '../DetailedView/DetailedView';
 import ErrorPage from '../ErrorPage/ErrorPage';
 import './App.css';
 import { getNews } from '../APICalls/APICalls';
-// import mockData from '../../mockData.json';
 
 function App() {
   const [allNews, setAllNews] = useState([]);
@@ -19,8 +18,8 @@ function App() {
       try {
         const data = await getNews();
         if (data && Array.isArray(data.articles)) {
-          setAllNews(data.articles); // Set articles if they exist
-          setFilteredArticles(data.articles); // Same for filteredArticles
+          setAllNews(data.articles);
+          setFilteredArticles(data.articles);
         } else {
           throw new Error('Invalid data structure received from API.');
         }

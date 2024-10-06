@@ -1,0 +1,45 @@
+{
+    "status": "ok",
+    "totalResults": 5626,
+    "articles": [
+        {
+            "source": {
+                "id": "wired",
+                "name": "Wired"
+            },
+            "author": "Joel Khalili",
+            "title": "The World’s Biggest Bitcoin Mine Is Rattling This Texas Oil Town",
+            "description": "A cashstrapped city in rural Texas will soon be home to the world’s largest bitcoin mine. Local protesters are “raising hell.”",
+            "url": "https://www.wired.com/story/the-worlds-biggest-bitcoin-mine-is-rattling-this-texas-oil-town/",
+            "urlToImage": "https://media.wired.com/photos/66c5ecc5724cee849e3104da/191:100/w_1280,c_limit/WIRED_BTC_EC_B-Elena-Chudoba.jpg",
+            "publishedAt": "2024-09-11T10:00:00Z",
+            "content": "The previous October, Sawicky organized a weeklong protest alongside environmental activist group Greenpeace and brandished various anti-bitcoin signs at anyone who entered the Riot facility. Only a … [+3641 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "CNET"
+            },
+            "author": "Samantha Kelly",
+            "title": "PayPal to Allow Businesses Buy and Sell Crypto",
+            "description": "The change will bring bitcoin and other virtual coins to \"millions\" of merchants across the US.",
+            "url": "https://www.cnet.com/personal-finance/crypto/paypal-to-allow-businesses-buy-and-sell-crypto/",
+            "urlToImage": "https://www.cnet.com/a/img/resize/2b2ba45973ffae7baacd4449b399bd35435e4fa0/hub/2022/04/22/d7acb748-e7bd-4553-ae44-2f893ccb87ba/paypal-logo-2022-659.jpg?auto=webp&fit=crop&height=675&width=1200",
+            "publishedAt": "2024-09-26T15:12:00Z",
+            "content": "It's about to get easier for US merchants to use cryptocurrency for payments. PayPal is launching a new service to allow the businesses that use its platform to buy, hold and sell crypto. \r\nAlthough … [+1029 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Yahoo Entertainment"
+            },
+            "author": "Jeremy Gan",
+            "title": "Proton Drive now has a tier for business users",
+            "description": "Proton Drive from Swiss technology company Proton AG now has a Professional tier. It joins services like Proton Mail, Proton VPN, and Proton Pass to receive professional tiers, letting teams select a single individual product that they need rather than signin…",
+            "url": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_21a908a3-4282-421e-b244-52b23957d2d3",
+            "urlToImage": null,
+            "publishedAt": "2024-08-27T14:30:09Z",
+            "content": "If you click 'Accept all', we and our partners, including 237 who are part of the IAB Transparency &amp; Consent Framework, will also store and/or access information on a device (in other words, use … [+678 chars]"
+        }
+    ]
+}
