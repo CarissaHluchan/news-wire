@@ -53,12 +53,12 @@ This application was built by: [Carissa Hluchan](https://github.com/CarissaHluch
 
 ### Learning Goals:
 [//]: <> (What were the learning goals of this project? What tech did you work with?)
-A strong understanding of React JS and Front-End best practices
-Ability to prioritize for MVP
-An understanding of basic usability practices and standards
-A clear hierarchy of information
-Clean, well thought out code
-Try to limit your total time to around 8 hours on this project. 
+- A strong understanding of React JS and Front-End best practices
+- Ability to prioritize for MVP
+- An understanding of basic usability practices and standards
+- A clear hierarchy of information
+- Clean, well thought out code
+- Try to limit total time to around 8 hours on this project. 
 
 ### Wins + Challenges:
 [//]: <> (What are 2-3 wins you have from this project? What were some challenges you faced - and how did you get over them?)
