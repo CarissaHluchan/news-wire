@@ -63,6 +63,6 @@ This application was built by: [Carissa Hluchan](https://github.com/CarissaHluch
 ### Wins + Challenges:
 [//]: <> (What are 2-3 wins you have from this project? What were some challenges you faced - and how did you get over them?)
 - Building a calendar in React: With research, I found additional libraries with prebuilt components to handle the Controler and DatePicker.
-- Working with the API's date format. I found the best way to manipulate the date was with Moment. I was then able to use the date as the id for NewsCards and for the URL of the DetailedView.
-- Keeping to the time limit proved challenging and went over the time limit with most of my time surrounded around the research of the DatePicker as this was my first time working with a calendar inside of React.
+- Working with the API's date format: I found the best way to manipulate the date was with Moment. I was then able to use the date for the id for NewsCards and for the URL of the DetailedView.
+- Keeping to the time limit: proved challenging and I went over. Most of my time going over was surrounded around the research of the DatePicker and unit testing in React as this was my first time working with these.
 - Ambition to learn unit testing with React: Due to the time limit I was not able to complete this. I would need more time available to learn React Unit Testing. It's on my to-do list.
