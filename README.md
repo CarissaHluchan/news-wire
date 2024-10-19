@@ -2,7 +2,7 @@
 
 ### Abstract:
 [//]: <> (Briefly describe what you built and its features. What problem is the app solving? How does this application solve that problem?)
-New Wire, an app that shows an overview of news articles form various sources to read by date.
+New Wire, an app that shows an overview of news articles from various sources to read by date.
 
 ### Technology:
 [//]: <> (Add technology you used for this project.) 
